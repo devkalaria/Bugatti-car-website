@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bugatti</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-warning">
+        <a class="navbar-brand" href="https://www.bugatti.com/the-bugatti-models/track-only/bolide/">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSL9SW3w9ZfbqjLprmjGkaiCuajrdMeA832T6E6b1fZIg&s"
+                alt="Bugatti Logo" width="45" height="50" class="mr-2">
+            Bugatti Bolide </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#headingOne">Racing Pedigree</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#headingTwo">Performance</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#headingThree">Aerodynamics</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#headingFour">Design</a>
+                </li>
+
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Carousel -->
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="https://d2ox13tjqpxop5.cloudfront.net/BUGATTI-2023/Bugatti-Models/BOLIDE/iv-2-bolide-desktop-new.jpeg"
+                    class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="https://d2ox13tjqpxop5.cloudfront.net/BUGATTI-2023/Bugatti-Models/BOLIDE/iv-6-bolide-desktop-new.jpeg"
+                    class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="https://d2ox13tjqpxop5.cloudfront.net/BUGATTI-2023/Bugatti-Models/BOLIDE/iv-5-bolide-desktop.jpeg"
+                    class="d-block w-100" alt="...">
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+
+    <!-- Accordion -->
+    <div id="accordion">
+        <div class="card">
+            <div class="card-header" id="headingOne">
+                <h5 class="mb-0">
+                    <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true"
+                        aria-controls="collapseOne">
+                        <span style="font-weight: 700;">Racing Pedigree </span>
+                    </button>
+                </h5>
+            </div>
+
+            <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                <div class="card-body">
+Crafted around a formidable engine. Paired with a daring, ultra-lightweight design.<br>
+This limited-edition powerhouse embraced rigorous testing and anticipation. <br>
+From virtual simulations to lapping real racetracks to delivering motorsport levels of performance for all enthusiasts.<br>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-header" id="headingTwo">
+                <h5 class="mb-0">
+                    <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo"
+                        aria-expanded="false" aria-controls="collapseTwo">
+                        <span style="font-weight: 700;">PERFORMANCE</span>
+                    </button>
+                </h5>
+            </div>
+            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                <div class="card-body">
+                    W16 POWER UNLEASHED<br>
+The W16 underwent race track optimization, modifying turbochargers and lubrication systems to withstand elevated temperatures and forces.<br>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-header" id="headingThree">
+                <h5 class="mb-0">
+                    <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree"
+                        aria-expanded="false" aria-controls="collapseTwo">
+                        <span style="font-weight: 700;">Aerodynamics</span>
+                    </button>
+                </h5>
+            </div>
+            <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                <div class="card-body">
+                    Liberating the car of all baggage, the newly-shaped, lightweight carbon monocoque—which had to be constructed around the incredibly compact drive-train—bestows full aerodynamic effectiveness all over.<br>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-header" id="headingFour">
+                <h5 class="mb-0">
+                    <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFour"
+                        aria-expanded="false" aria-controls="collapseThree">
+                        <span style="font-weight: 700;">Design</span>
+                    </button>
+                </h5>
+            </div>
+            <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
+                <div class="card-body">
+                    The horseshoe conveys the BUGATTI DNA, while providing structural and aerodynamic functions.<br>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Cards -->
+    <div class="card-deck">
+        <div class="card bg-danger">
+            <a href="https://www.bugatti.com/the-bugatti-models/chiron-special-editions/chiron-sport-ldc/">
+                <img src="https://www.bugatti.com/media/mjofq0fv/c_01.jpg?width=420&height=240&rnd=133343651512770000"
+                    class="card-img-top" alt="...">
+            </a>
+
+            <div class="card-body">
+                <h5 class="card-title">CHIRON</h5>
+                <p class="card-text">The Bugatti Chiron is a mid-engine two-seater sports car designed and developed in Germany by Bugatti Engineering GmbH and manufactured in Molsheim, France, by French automobile manufacturer Bugatti Automobiles S.A.S. The successor to the Bugatti Veyron, the Chiron was first shown at the Geneva Motor Show on 1 March 2016. The car's design was initially previewed with the Bugatti Vision Gran Turismo concept car unveiled at the 2015 Frankfurt Auto Show.</p>
+            </div>
+        </div>
+        <div class="card bg-white">
+            <a href="https://www.bugatti.com/the-bugatti-models/w16-mistral-the-ultimate-roadster/">
+                <img src="https://www.bugatti.com/media/mc3drao0/image-03.jpg?width=420&height=240&rnd=133343651585730000"
+                    class="card-img-top" alt="...">
+            </a>
+
+            <div class="card-body">
+                <h5 class="card-title">W16 MISTRAL</h5>
+                <p class="card-text">The Bugatti Mistral, also called the Bugatti W16 Mistral, is a mid-engine two-seater sports car manufactured in Molsheim, France, by French automobile manufacturer Bugatti Automobiles S.A.S. It was revealed on 19 August 2022.The Mistral is marketed as the fastest roadster in the world. Deliveries to customers will begin in early 2024. All 99 units were pre-sold at a price of 5 million euros.
+                    The Mistral is not a cabriolet version of the Bugatti Chiron but rather a separate roadster model for Bugatti that marks the last vehicle to use the W16 engine that was introduced with the Bugatti Veyron in 2005.</p>
+            </div>
+        </div>
+        <div class="card bg-secondary">
+            <a href="https://www.bugatti.com/the-bugatti-models/chiron-facets-of-performance/sport/">
+                <img src="https://www.bugatti.com/media/2pchhqkg/cs_9.jpg?width=420&height=240&rnd=133343644496130000"
+                    class="card-img-top" alt="...">
+            </a>
+            <div class="card-body">
+                <h5 class="card-title">CHIRON SPORT</h5>
+                <p class="card-text">At the 2018 Geneva Motor Show, Bugatti unveiled the track focused version of the Chiron, named the Chiron Sport. Mechanically the car is identical to the regular version, generating 1,500 PS (1,105 kW; 1,480 hp) from a quad-turbocharged W16 engine but is 18 kg (40 lb) lighter due to a lighter, more unrestricted exhaust system, the extensive use of carbon fibre, and a stiffer suspension in order to increase the cornering ability of the car while maintaining its grand touring characteristics.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Button -->
+    <div class="text-center">
+        <button type="button" class="btn btn-primary animated-button" id="websiteButton">Official Bugatti
+            Website</button>
+
+    </div>
+
+
+
+    <!-- Bootstrap JS and jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
